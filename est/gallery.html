@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+	<title>Galerii</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="../img/ehitus.png"></a>
+   
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+        <button onclick="document.location='company.html'" class="nav-link " id="home-tab" data-bs-toggle="tab"  type="button" role="tab" aria-controls="home"><h6>Ettevõte</h6></button>
+        </li>
+        <li class="nav-item" role="presentation">
+        <button onclick="document.location='services.html'" class="nav-link" id="profile-tab" data-bs-toggle="tab"  type="button" role="tab" aria-controls="profile" aria-selected="false"><h6>Teenused</h6></button>
+        </li>
+        
+          <li class="nav-item" role="presentation">
+          <button onclick="document.location='gallery.html'" class="nav-link active" id="contact-tab" data-bs-toggle="tab"  type="button" role="tab" aria-controls="contact"><h6>Galerii</h6></button>
+        </li>
+        
+      </ul>
+ 
+    </div>
+    <div style="margin-left: 1000px;" class="collapse navbar-collapse" >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="../ru/gallery.html">Rus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../eng/gallery.html">Eng</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm" >
+           <button type="button" class="btn " data-bs-target="#first" data-bs-toggle="modal">
+              <svg style="background-image: url(../img/gallery/1.jpg); background-position: center;" class="bd-placeholder-img card-img-top" width="100%" height="225"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" ></svg>
+            </button>
+          </div>
+        </div>
+        <div class="modal fade" id="first" aria-labelledby="first" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img style="width: 100%;" src="../img/gallery/1.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm" >
+           <button type="button" class="btn " data-bs-target="#second" data-bs-toggle="modal">
+              <svg style="background-image: url(../img/gallery/2.jpg); background-position: center;" class="bd-placeholder-img card-img-top" width="100%" height="225"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" ></svg>
+            </button>
+          </div>
+        </div>
+        <div class="modal fade" id="second" aria-labelledby="first" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img style="width: 100%;" src="../img/gallery/2.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm" >
+           <button type="button" class="btn " data-bs-target="#third" data-bs-toggle="modal">
+              <svg style="background-image: url(../img/gallery/3.jpg); background-position: center;" class="bd-placeholder-img card-img-top" width="100%" height="225"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" ></svg>
+            </button>
+          </div>
+        </div>
+        <div class="modal fade" id="third" aria-labelledby="first" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img style="width: 100%;" src="../img/gallery/3.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm" >
+           <button type="button" class="btn " data-bs-target="#fourth" data-bs-toggle="modal">
+              <svg style="background-image: url(../img/gallery/4.jpg); background-position: center;" class="bd-placeholder-img card-img-top" width="100%" height="225"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" ></svg>
+            </button>
+          </div>
+        </div>
+        <div class="modal fade" id="fourth" aria-labelledby="first" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img style="width: 100%;" src="../img/gallery/4.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm" >
+           <button type="button" class="btn " data-bs-target="#fifth" data-bs-toggle="modal">
+              <svg style="background-image: url(../img/gallery/5.jpg); background-position: center;" class="bd-placeholder-img card-img-top" width="100%" height="225"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" ></svg>
+            </button>
+          </div>
+        </div>
+        <div class="modal fade" id="fifth" aria-labelledby="first" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img style="width: 100%;" src="../img/gallery/5.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm" >
+           <button type="button" class="btn " data-bs-target="#sixth" data-bs-toggle="modal">
+              <svg style="background-image: url(../img/gallery/6.jpg); background-position: center;" class="bd-placeholder-img card-img-top" width="100%" height="225"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" ></svg>
+            </button>
+          </div>
+        </div>
+        <div class="modal fade" id="sixth" aria-labelledby="first" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img style="width: 100%;" src="../img/gallery/6.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm" >
+           <button type="button" class="btn " data-bs-target="#seventh" data-bs-toggle="modal">
+              <svg style="background-image: url(../img/gallery/7.jpg); background-position: center;" class="bd-placeholder-img card-img-top" width="100%" height="225"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" ></svg>
+            </button>
+          </div>
+        </div>
+        <div class="modal fade" id="seventh" aria-labelledby="first" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img style="width: 100%;" src="../img/gallery/7.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm" >
+           <button type="button" class="btn " data-bs-target="#eighth" data-bs-toggle="modal">
+              <svg style="background-image: url(../img/gallery/8.jpg); background-position: center;" class="bd-placeholder-img card-img-top" width="100%" height="225"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" ></svg>
+            </button>
+          </div>
+        </div>
+        <div class="modal fade" id="eighth" aria-labelledby="first" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img style="width: 100%;" src="../img/gallery/8.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm" >
+           <button type="button" class="btn " data-bs-target="#ninth" data-bs-toggle="modal">
+              <svg style="background-image: url(../img/gallery/9.jpg); background-position: center;" class="bd-placeholder-img card-img-top" width="100%" height="225"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" ></svg>
+            </button>
+          </div>
+        </div>
+        <div class="modal fade" id="ninth" aria-labelledby="first" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img style="width: 100%;" src="../img/gallery/9.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer style="background-color: #87CEEB; " class="container-fluid py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      <img style="width: 50px;" src="../img/sj.png" class="mb-3">
+      
+      <small class="d-block mb-3 text">© 2021</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Info</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="company.html">Ettevõte</a></li>
+        <li><a class="link-secondary" href="gallery.html">
+Galerii</a></li>
+       
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Teenused</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="services.html">
+Meie teenused</a></li>
+        
+      </ul>
+    </div>
+   <div class="col-6 col-md">
+      <h5>Kontaktid</h5>
+      <ul class="list-unstyled text-small">
+        <small class="d-block mb-3 text">sjehitus@gmail.com</small>
+      <small class="d-block mb-3 text">+372 5594 1312</small>
+      <small class="d-block text">Priisle tee 4/2</small>
+      <small class=" d-block text mb-3">13914 Tallinn</small>
+       
+      </ul>
+    </div>
+    
+  </div>
+</footer>
+</body>
+</html>
